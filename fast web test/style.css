@@ -1,12 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
 }
-.name-color{
-    color: blueviolet;
+.orenge-higlight{
+    color: rgb(255, 0, 0);
 }
 .half-width{
     width: 40%;
@@ -16,4 +17,52 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+
+.top-border{
+    background-image: url(imges/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
+}
+.boutn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(216, 96, 60),rgb(255, 0, 0));
+    font-weight: 700px;
+    color: aliceblue;
+    padding: 2% 4%;
+    border-radius: 5px;
+}
+.Dream-site{
+    background-image: url(imges/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.single-exprinc{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
+    background-color: white;
+}
+.experians{
+    background-image: url(imges/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#ful-stok{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, rgb(204, 164, 157),rgb(255, 38, 0));
+    border-image-slice: 1;
+}
+#baby{
+    border-left:7px solid;
+    border-image:linear-gradient(180deg, rgb(82, 153, 73),rgb(18, 44, 1));
+    border-image-slice: 1;
+
+}
+.no{
+    text-align: center;
 }
